@@ -19,7 +19,7 @@ func escrever(texto string, numeros ...int) {
 }
 
 func main() {
-	totalDaSoma := soma(1, 2, 3, 4)
+	totalDaSoma := soma(1, 2, 3, 4, 5, 5)
 	fmt.Println(totalDaSoma)
 	escrever("Olá mundo", 10, 2, 3, 4, 5)
 }
